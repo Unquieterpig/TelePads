@@ -6,7 +6,7 @@ description: Telepads allows players to setup a network of teleport pads which a
 main: me.wizzledonker.plugins.telepads.Telepads
 name: TelePads
 load: POSTWORLD
-version: '2.0'
+version: '2.1'
 commands:
   createpad:
     description: Creates a teleport pad with the specified name
