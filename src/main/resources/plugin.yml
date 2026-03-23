@@ -1,11 +1,12 @@
 author: wizzledonker
+api-version: '1.21'
 database: false
 description: Telepads allows players to setup a network of teleport pads which are
   connected to each other, and teleport when stood upon.
 main: me.wizzledonker.plugins.telepads.Telepads
 name: TelePads
-startup: postworld
-version: '1.5'
+load: POSTWORLD
+version: '2.0'
 commands:
   createpad:
     description: Creates a teleport pad with the specified name
@@ -33,26 +34,26 @@ commands:
     aliases: [listpad, listpads, pads, telepads]
 permissions:
   telepads.list:
-    Description: Defines whether a player can view the pad list
-    Default: op
+    description: Defines whether a player can view the pad list
+    default: op
   telepads.create:
-    Description: Defines whether or not a player can create a teleport pad
-    Default: op
+    description: Defines whether or not a player can create a teleport pad
+    default: op
   telepads.delete:
-    Description: Defines whether a player can delete a teleport pad
-    Default: op
+    description: Defines whether a player can delete a teleport pad
+    default: op
   telepads.use:
-    Description: Defines if players may use TelePads
-    Default: true
+    description: Defines if players may use TelePads
+    default: true
   telepads.link:
-    Description: Players with this permission can link telepads
-    Default: op
+    description: Players with this permission can link telepads
+    default: op
   telepads.linkhere:
-    Description: Players with this permission can link pads to their location
-    Default: op
+    description: Players with this permission can link pads to their location
+    default: op
   telepads.unlink:
-    Description: Players with this permission can unlink a telepad
-    Default: op
+    description: Players with this permission can unlink a telepad
+    default: op
   telepads.pads:
-    Description: Grants access to all telepads
-    Default: true
+    description: Grants access to all telepads
+    default: true
